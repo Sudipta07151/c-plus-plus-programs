@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1617371722 source:c:\cnqt\nqtquestions\main.cpp
+	<iostream>
+	<cmath>
+	"operators.h"
+
+1616055902 c:\cnqt\nqtquestions\fileone.h
+
+1616061895 c:\cnqt\nqtquestions\pointer.h
+
+1616157220 c:\cnqt\nqtquestions\spacesepratedinput.h
+	<string>
+
+1616171934 c:\cnqt\nqtquestions\ugly.h
+
+1616177174 c:\cnqt\nqtquestions\sweetseventeen.h
+	<string>
+	<cstring>
+	<cmath>
+
+1616179281 c:\cnqt\nqtquestions\coordinateproblem.h
+
+1616182324 c:\cnqt\nqtquestions\wordkey.h
+	<string>
+
+1616259952 c:\cnqt\nqtquestions\vectorsprac.h
+	<vector>
+
+1616261165 c:\cnqt\nqtquestions\stringprac.h
+
+1616315122 c:\cnqt\nqtquestions\bubblesort.h
+
+1616319704 c:\cnqt\nqtquestions\insertionsort.h
+
+1616438684 c:\cnqt\nqtquestions\cipher.h
+
+1616485438 c:\cnqt\nqtquestions\fullpyramid.h
+
+1616612319 c:\cnqt\nqtquestions\operators.h
+	<cmath>
+
