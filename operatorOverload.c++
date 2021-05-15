@@ -34,8 +34,16 @@ class Complex{
       }
     cout<<"real:"<<this->real<<"img:"<<this->ima<<endl;    
   }
- 
+ friend Complex operator*(Complex,Complex);
 };
+
+Complex operator*(Complex obj1,Complex obj2)
+{
+    Complex temp;
+    temp.real=obj1.real*obj2.real;
+    temp.ima=obj1.ima*obj2.ima;
+      return temp;
+}
 
 int main() {
     
@@ -47,5 +55,7 @@ int main() {
     temp.display('+');
     temp=obj1-obj2;
     temp.display('-');
+    temp=obj1*obj2;
+    temp.display();
     return 0;
 }
