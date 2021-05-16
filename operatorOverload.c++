@@ -32,9 +32,13 @@ class Complex{
           case '+':cout<<"ADDITION PERFOREMD"<<endl;break;
           case '-':cout<<"SUBTRACTION PERFOREMD"<<endl;break;
       }
-    cout<<"real:"<<this->real<<"img:"<<this->ima<<endl;    
+    if(this->img>=0)
+        cout<<real<<"+"<<img<<"i";
+        else
+        cout<<real<<img<<"i";    
   }
  friend Complex operator*(Complex,Complex);
+  friend ostream& operator<<(ostream &o,Complex obj_Passed);
 };
 
 Complex operator*(Complex obj1,Complex obj2)
@@ -43,6 +47,14 @@ Complex operator*(Complex obj1,Complex obj2)
     temp.real=obj1.real*obj2.real;
     temp.ima=obj1.ima*obj2.ima;
       return temp;
+}
+ostream& operator<<(ostream &o,Complex obj_Passed)
+{
+    if(obj_Passed.img>=0)
+        o<<obj_Passed.real<<"+"<<obj_Passed.img<<"i";
+    else
+        o<<obj_Passed.real<<obj_Passed.img<<"i";
+    return o;
 }
 
 int main() {
